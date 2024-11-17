@@ -1,0 +1,30 @@
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+$custom-colors:(
+   "primary-50": #f7f2ee,
+   "primary-100": #edd9cc,
+"primary-200": #e0c2ad,
+"primary-300": #d2aa8b,
+"primary-400": #c5966f,
+"primary-500": #8B5E3C,
+"primary-600": #704c31,
+"primary-700": #583c26,
+"primary-800": #402d1b,
+"primary-900": #2c1e12,
+"secondary-50": #f1f6f1,
+"secondary-100": #d8e7d8,
+"secondary-200": #bdd7be,
+"secondary-300": #a2c6a3,
+"secondary-400": #87b688,
+"secondary-500": #58764C,
+"secondary-600": #48603d,
+"secondary-700": #384b2f,
+"secondary-800": #283721,
+"secondary-900": #192410,
+
+);
+$theme-colors:map-merge($theme-colors , $custom-colors);
+
+@import "node_modules/bootstrap/scss/bootstrap";
