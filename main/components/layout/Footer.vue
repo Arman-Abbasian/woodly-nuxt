@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer_section">
+    <footer class="footer_section bg-secondary-500">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 footer-col">
@@ -8,51 +8,49 @@
                             تماس با ما
                         </h4>
                         <div class="contact_link_box">
-                            <a href="">
+                            <div>
                                 <i class="bi bi-geo-alt-fill"></i>
                                 <span>
-                                    آدرس
+                                    آدرس: تهران-جاده خاوران-وودلی ناکست
                                 </span>
-                            </a>
-                            <a href="">
+                            </div>
                                 <div class="d-flex justify-content-center">
                                     <i class="bi bi-telephone-fill" aria-hidden="true"></i>
                                     <p class="my-0" style="direction: ltr;">
-                                        0910 000 0000
+                                        0912 000 00 00
                                     </p>
                                 </div>
-                            </a>
-                            <a href="">
+                            <div>
                                 <i class="bi bi-envelope-fill"></i>
                                 <span>
-                                    demo@gmail.com
+                                    woodly-nuxt@gmail.com
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 footer-col">
                     <div class="footer_detail">
-                        <a href="" class="footer-logo">
-                            webprog.io
-                        </a>
+                        <p href="" class="footer-logo">
+                            www.woodly.ir
+                        </p>
                         <p>
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                           ما را درشبکه های اجتماعی دنبال کنید
                         </p>
                         <div class="footer_social">
-                            <a href="">
+                            <a href="#">
                                 <i class="bi bi-facebook"></i>
                             </a>
-                            <a href="">
+                            <a href="#">
                                 <i class="bi bi-twitter"></i>
                             </a>
-                            <a href="">
+                            <a href="#">
                                 <i class="bi bi-linkedin"></i>
                             </a>
-                            <a href="">
+                            <a href="#">
                                 <i class="bi bi-instagram"></i>
                             </a>
-                            <a href="">
+                            <a href="#">
                                 <i class="bi bi-pinterest"></i>
                             </a>
                         </div>
@@ -72,7 +70,7 @@
             </div>
             <div class="footer-info">
                 <p>
-                    لورم ایپسوم متن ساختگی با تولید سادگی
+                    منتظر دیدار گرم شما هستیم
                 </p>
             </div>
         </div>
