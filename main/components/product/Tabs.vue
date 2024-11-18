@@ -12,7 +12,7 @@
                     <div class="filters_content">
                         <div class="row grid">
                             <div v-for="product in products.data.tabPanel[index]" :key="product.id"
-                                class="col-sm-6 col-lg-4">
+                                class="col-md-6 col-xl-4">
                                 <ProductCard :product="product" />
                             </div>
                         </div>

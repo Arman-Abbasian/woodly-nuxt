@@ -1,10 +1,10 @@
 <template>
-    <div class="box">
+    <div class="box bg-primary-500">
         <div>
-            <div class="img-box">
+            <div class="img-box bg-primary">
                 <img src="/images/preloader.png" v-img="props.product.primary_image" alt="">
             </div>
-            <div class="detail-box">
+            <div class="detail-box bg-primary">
                 <h5>
                     <NuxtLink :to="`/products/${props.product.slug}`">{{ props.product.name }}</NuxtLink>
                 </h5>

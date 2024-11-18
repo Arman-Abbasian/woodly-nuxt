@@ -2,6 +2,12 @@
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 
+
+$theme-colors: (
+  "primary": #c5966f,
+  "secondary": #87b688
+);
+
 $custom-colors:(
    "primary-50": #f7f2ee,
    "primary-100": #edd9cc,
@@ -26,5 +32,7 @@ $custom-colors:(
 
 );
 $theme-colors:map-merge($theme-colors , $custom-colors);
+
+
 
 @import "node_modules/bootstrap/scss/bootstrap";
