@@ -1,7 +1,7 @@
 <template>
     <section class="slider_section">
         <div class="bg-box">
-            <img src="/images/hero-bg.jpg" alt="">
+            <img src="/images/main/main.png" alt="">
         </div>
         <div id="customCarousel1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">

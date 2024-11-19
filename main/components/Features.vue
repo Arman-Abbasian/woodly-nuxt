@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row gy-5">
                 <div class="col-sm-6">
-                    <div class="card text-center bg-primary-200">
+                    <div class="card text-center bg-secondary">
                         <div class="card-body">
                             <div class="card-icon-wrapper">
                                 <img src="/images/features/sofa.webp" style="width: 60px; height: 60px; border-radius: 50%;"/>
@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="card text-center bg-primary-200">
+                    <div class="card text-center bg-secondary">
                         <div class="card-body">
                             <div class="card-icon-wrapper">
                                 <img src="/images/features/drawer.webp" style="width: 60px; height: 60px; border-radius: 50%;"/>
@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="card text-center bg-primary-200">
+                    <div class="card text-center bg-secondary">
                         <div class="card-body">
                             <div class="card-icon-wrapper">
                                 <img src="/images/features/kitchen.webp" style="width: 60px; height: 60px; border-radius: 50%;"/>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="card text-center bg-primary-200">
+                    <div class="card text-center bg-secondary">
                         <div class="card-body">
                             <div class="card-icon-wrapper">
                                 <img src="/images/features/gift.webp" style="width: 60px; height: 60px; border-radius: 50%;"/>

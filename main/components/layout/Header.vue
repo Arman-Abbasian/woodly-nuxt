@@ -1,14 +1,12 @@
 <template>
     <div class="sub_page">
-        <div class="hero_area bg-secondary-500">
+        <div class="hero_area bg-primary-500">
             <!-- header section strats -->
             <header class="header_section">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg custom_nav-container">
-                        <NuxtLink class="navbar-brand" to="/">
-                            <span>
-                                webprog.io
-                            </span>
+                        <NuxtLink class="navbar-brand" to="/">  
+                                <img class="logo" src="images/main/logo.svg" />
                         </NuxtLink>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -68,3 +66,9 @@ const cart = useCartStore();
 const countCartItems = computed(() => cart.count)
 
 </script>
+
+<style scoped>
+.logo{
+    width: 70px;
+}
+</style>

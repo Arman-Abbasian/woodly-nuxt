@@ -1,10 +1,10 @@
 <template>
-    <section class="about_section layout_padding bg-primary-400">
+    <section class="about_section layout_padding bg-secondary">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 ">
                     <div class="img-box">
-                        <img src="/images/about-img.png" alt="">
+                        <img src="/images/aboutUs/about-us.webp" alt="" >
                     </div>
                 </div>
                 <div class="col-md-6">

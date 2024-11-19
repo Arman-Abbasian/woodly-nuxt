@@ -78,7 +78,7 @@ p {
 }
 
 .heading_container h2 span {
-    color: #ffbe33;
+    color: var(--primary-300);
 }
 
 .heading_container p {
@@ -196,7 +196,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link,
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-    color: #ffbe33;
+    color: #d2aa8b;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -209,7 +209,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-    color: #ffbe33;
+    color: #d2aa8b;
 }
 
 .user_option {
@@ -230,7 +230,7 @@ a:focus {
 }
 
 .user_option .user_link:hover {
-    color: #ffbe33;
+    color: #d2aa8b;
 }
 
 .user_option .cart_link {
@@ -253,13 +253,13 @@ a:focus {
 }
 
 .user_option .cart_link:hover svg {
-    fill: #ffbe33;
+    fill: #d2aa8b;
 }
 
 .user_option .btn-auth {
     display: inline-block;
     padding: 8px 30px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     border-radius: 45px;
     -webkit-transition: all 0.3s;
@@ -274,7 +274,7 @@ a:focus {
 .btn-auth {
     display: inline-block;
     padding: 8px 30px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     border-radius: 45px;
     -webkit-transition: all 0.3s;
@@ -395,7 +395,7 @@ a:focus {
 .slider_section .detail-box a {
     display: inline-block;
     padding: 10px 45px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     border-radius: 45px;
     -webkit-transition: all 0.3s;
@@ -405,7 +405,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-    background-color: #e69c00;
+    background-color: #c5966f;
 }
 
 .slider_section .img-box img {
@@ -434,7 +434,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
     width: 20px;
     height: 20px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
 }
 
 .card-area .card-icon-wrapper {
@@ -557,7 +557,7 @@ a:focus {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background: #ffbe33;
+    background: #d2aa8b;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -593,7 +593,7 @@ a:focus {
 .food_section .btn-box a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     border-radius: 45px;
     -webkit-transition: all 0.3s;
@@ -602,11 +602,11 @@ a:focus {
 }
 
 .food_section .btn-box a:hover {
-    background-color: #e69c00;
+    background-color: #c5966f;
 }
 
 .food_section .filter-list .filter-list-active {
-    color: #ffbe33;
+    color: #d2aa8b;
 }
 
 .about_section {
@@ -644,7 +644,7 @@ a:focus {
 .about_section .detail-box a {
     display: inline-block;
     padding: 10px 45px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     border-radius: 45px;
     -webkit-transition: all 0.3s;
@@ -654,7 +654,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-    background-color: #e69c00;
+    background-color: #c5966f;
 }
 
 .book_section {
@@ -706,7 +706,7 @@ a:focus {
     text-transform: uppercase;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     border-radius: 45px;
     -webkit-transition: all 0.3s;
@@ -765,7 +765,7 @@ a:focus {
 
 .client_section .box .img-box img {
     border-radius: 100%;
-    border: 5px solid #ffbe33;
+    border: 5px solid #d2aa8b;
     position: relative;
 }
 
@@ -776,7 +776,7 @@ a:focus {
     top: 0;
     width: 20px;
     height: 20px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     -webkit-transform: rotate(45deg) translateX(-50%);
     transform: rotate(45deg) translateX(-50%);
 }
@@ -815,7 +815,7 @@ a:focus {
 .client_section .owl-carousel .owl-nav .owl-next {
     width: 45px;
     height: 45px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     outline: none;
     bottom: 0px;
@@ -881,7 +881,7 @@ a:focus {
     text-transform: uppercase;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     border-radius: 0px;
     -webkit-transition: all 0.3s;
@@ -924,10 +924,12 @@ a:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
+    
 }
 
 .footer_section .footer_contact .contact_link_box a {
@@ -940,7 +942,7 @@ a:focus {
 }
 
 .footer_section .footer_contact .contact_link_box a:hover {
-    color: #ffbe33;
+    color: #c5966f;
 }
 
 .footer_section .footer-logo {
@@ -983,7 +985,7 @@ a:focus {
 }
 
 .footer_section .footer_social a:hover {
-    color: #ffbe33;
+    color: #c5966f;
 }
 
 .footer_section .footer-info {
@@ -1030,7 +1032,7 @@ a:focus {
 }
 
 .page-item.active .page-link {
-    color: #ffbe33;
+    color: #d2aa8b;
     background-color: #222831;
     border-color: #222831;
 }
@@ -1056,7 +1058,7 @@ a:focus {
 .btn {
     display: inline-block;
     padding: 8px 30px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     border-radius: 45px;
     -webkit-transition: all 0.3s;
@@ -1070,8 +1072,8 @@ a:focus {
 
 .btn-primary {
     color: #fff;
-    background-color: #ffbe33;
-    border-color: #ffbe33;
+    background-color: #d2aa8b;
+    border-color: #d2aa8b;
 }
 
 .btn-dark,
@@ -1083,15 +1085,15 @@ a:focus {
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    background-color: #ffbe33;
-    border-color: #ffbe33;
+    background-color: #d2aa8b;
+    border-color: #d2aa8b;
 }
 
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
     color: #fff;
-    background-color: #ffbe33;
-    border-color: #ffbe33;
+    background-color: #d2aa8b;
+    border-color: #d2aa8b;
     box-shadow: 0 0 0 0.25rem rgb(252 208 59 / 50%);
 }
 
@@ -1108,7 +1110,7 @@ a:focus {
 .single_page_section .btn-add {
     display: inline-block;
     padding: 8px 30px;
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
     color: #ffffff;
     border-radius: 45px;
     -webkit-transition: all 0.3s;
@@ -1117,7 +1119,7 @@ a:focus {
 }
 
 .cart_link span {
-    background-color: #ffbe33;
+    background-color: #d2aa8b;
 }
 
 .input-counter {
