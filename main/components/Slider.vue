@@ -3,7 +3,7 @@
         <div class="bg-box">
             <img src="/images/main/main.png" alt="">
         </div>
-        <div id="customCarousel1" class="carousel slide" data-bs-ride="carousel">
+        <!-- <div id="customCarousel1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container">
@@ -11,16 +11,10 @@
                             <div class="col-md-7 col-lg-6">
                                 <div class="detail-box">
                                     <h2 class="mb-3 fw-bold">
-                                        لورم ایپسوم متن ساختگی
+                                        مبلمان چوبی
                                     </h2>
                                     <p>
-                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
-                                        از
-                                        طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و
-                                        سطرآنچنان که
-                                        لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                                        بهبود
-                                        ابزارهای کاربردی می باشد.
+                                       مبلمان چوبی با بهترین کیفیت چوب و پارچه
                                     </p>
                                     <div class="btn-box">
                                         <a href="" class="btn1">
@@ -38,16 +32,10 @@
                             <div class="col-md-7 col-lg-6">
                                 <div class="detail-box">
                                     <h2 class="mb-3 fw-bold">
-                                        لورم ایپسوم متن ساختگی
+                                        آشپزخانه
                                     </h2>
                                     <p>
-                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
-                                        از
-                                        طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و
-                                        سطرآنچنان که
-                                        لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                                        بهبود
-                                        ابزارهای کاربردی می باشد.
+                                        وسایل چوبی آشپزخانه با بالاترین تنوع و بهترین کیفیت
                                     </p>
                                     <div class="btn-box">
                                         <a href="" class="btn1">
@@ -65,16 +53,10 @@
                             <div class="col-md-7 col-lg-6">
                                 <div class="detail-box">
                                     <h2 class="mb-3 fw-bold">
-                                        لورم ایپسوم متن ساختگی
+                                        کمد
                                     </h2>
                                     <p>
-                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
-                                        از
-                                        طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و
-                                        سطرآنچنان که
-                                        لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                                        بهبود
-                                        ابزارهای کاربردی می باشد.
+                                       طراحی و ساخت انواع کمد های چوبی در کمترین زمان و با بهترین کیفیت
                                     </p>
                                     <div class="btn-box">
                                         <a href="" class="btn1">
@@ -88,13 +70,12 @@
                 </div>
             </div>
             <div class="container">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#customCarousel1" data-bs-slide-to="0" class="active"></li>
+                <ul class="carousel-indicators">
+                    <li data-bs-target="#customCarousel1"  data-bs-slide-to="0" class="active"></li>
                     <li data-bs-target="#customCarousel1" data-bs-slide-to="1"></li>
                     <li data-bs-target="#customCarousel1" data-bs-slide-to="2"></li>
-                </ol>
+                </ul>
             </div>
-        </div>
-
+        </div> -->
     </section>
 </template>

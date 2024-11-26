@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['https://webprog-projects-js.ir', 'https://panel.webprog-projects-js.ir','http://localhost:3000'],
+    'allowed_origins' => ['https://webprog-projects-js.ir', 'https://panel.webprog-projects-js.ir','http://localhost:3000','http://localhost:3001'],
     // 'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [],

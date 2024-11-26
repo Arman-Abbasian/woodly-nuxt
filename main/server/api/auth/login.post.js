@@ -17,7 +17,7 @@ export default defineEventHandler(async (event) => {
             maxAge: 60 * 60 * 24 * 7, // 1 week
             path: '/'
         })
-
+        console.log(data)
         return 'Login Success';
     } catch (error) {
         return error;

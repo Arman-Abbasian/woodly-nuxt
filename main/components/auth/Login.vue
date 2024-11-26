@@ -50,7 +50,7 @@ async function login() {
             method: 'POST',
             body: { cellphone: cellphone.value }
         })
-
+        console.log(data)
         toast.success("کد ورود برای شما ارسال شد");
         emit('showCheckOtpForm')
     } catch (error) {
